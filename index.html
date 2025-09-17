@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- TODO: Update language as needed -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>Your Company</title>
+    <meta
+      name="description"
+      content="<!-- TODO: Add site description -->"
+    />
+    <meta
+      name="keywords"
+      content="<!-- TODO: Add relevant keywords -->"
+    />
+
+    <link rel="canonical" href="<!-- TODO: Add canonical URL -->" />
+    <!--<link rel="preload" as="image" href="/assets/header-1-abc123.webp" imagesrcset="/assets/header-1-abc123-300w.webp 300w, /assets/header-1-abc123-600w.webp 600w, /assets/header-1-abc123-1050w.webp 1050w, /assets/header-1-abc123-2000w.webp 2000w" imagesizes="100vw">-->
+  </head>
+
+  <body class="overflow-x-hidden">
+    <div id="app" class="flex flex-col relative gap-16 p-2 md:gap-32">
+      <!-- Navigation -->
+      <load src="src/components/navigation.html" />
+
+      <!-- Main Content -->
+
+
+          <div
+            class="z-20 row-start-2 md:row-start-2 md:col-start-1 col-span-full md:col-span-3 hyphens-auto mt-4 md:mt-0"
+          >
+            <h1 class="mb-4 text-4xl md:text-6xl bg-slate-100/30 rounded-xl">
+              <!-- TODO: Update hero title -->
+              Your Main Headline Here
+            </h1>
+            <p class="mb-4 mr-20">
+              <!-- TODO: Update hero subtitle -->
+              Visando gastar dinheiro e alegrar nossa vida ofereço a você
+            </p>
+
+
+          <div
+            class="row-start-1 md:row-start-2 row-span-1 col-start-1 md:col-start-4 col-end-8 md:-mt-24"
+          >
+            <img
+              id="header-1"
+              data-src="/src/images/gradient-2.jpg"
+              alt="<!-- TODO: Add alt text -->"
+              class="rounded-2xl object-cover"
+              width="1920"
+              height="1280"
+            />
+          </div>
+          <div
+            class="z-10 row-start-2 md:row-start-3 row-span-1 md:row-span-3 col-start-3 col-end-8 md:col-start-3 md:col-end-5 min-w-60"
+          >
+            <img
+              id="header-2"
+              data-src="/src/images/gradient-3.jpg"
+              alt="<!-- TODO: Add alt text -->"
+              class="rounded-2xl -mt-12 md:mt-0 hidden md:block"
+              width="1920"
+              height="1280"
+            />
+          </div>
+        </section>
+        <!-- Services Section -->
+        <section
+          id="services"
+          class="hero flex flex-col md:items-center w-full md:mx-auto md:max-w-screen-xl"
+        >
+          <h1
+            class="text-4xl text-left md:text-center md:text-6xl uppercase font-bold mb-4 px-4"
+          >
+            Nosso Roteiro
+          </h1>
+          <p
+            class="mb-8 px-4 text-left font-bold md:text-center md:mb-16 md:max-w-2xl"
+          >
+            Tudo foi feito de forma extremamente detalhada para agradar ambos os participanates da viagem
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-8">
+      <!-- Sexta -->
+      <div>
+        <button class="w-full bg-pink-200 hover:bg-pink-300 text-pink-800 font-bold py-3 px-6 rounded-full text-left flex justify-between items-center"
+                onclick="this.nextElementSibling.classList.toggle('hidden')">
+          <span>Sexta (26/09) – Chegada</span>
+          <span class="transform transition-transform">&#x25BC;</span>
+        </button>
+        <div class="hidden bg-pink-50 p-6 mt-2 rounded-lg shadow-lg space-y-2 transition-all duration-300">
+          <ul class="list-disc ml-6 space-y-1">
+            <li>Saída de Sorocaba (~120 km / 1h40)</li>
+            <li>Check-in na <a href="https://goo.gl/maps/xyz" target="_blank" class="text-pink-700 underline">Hospedagem – Estr. Mun. Geraldo Biral, Botucatu</a></li>
+            <li>Jantar: na hospedagem ou restaurante local</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Sábado -->
+      <div>
+        <button class="w-full bg-pink-200 hover:bg-pink-300 text-pink-800 font-bold py-3 px-6 rounded-full text-left flex justify-between items-center"
+                onclick="this.nextElementSibling.classList.toggle('hidden')">
+          <span>Sábado (27/09) – Vinhos + Café + Museu</span>
+          <span class="transform transition-transform">&#x25BC;</span>
+        </button>
+        <div class="hidden bg-pink-50 p-6 mt-2 rounded-lg shadow-lg space-y-2 transition-all duration-300">
+          <h3 class="font-semibold">Manhã</h3>
+          <ul class="list-disc ml-6 space-y-1">
+            <li><a href="https://goo.gl/maps/xyz" target="_blank" class="text-pink-700 underline">Vinícola Refúgio</a> – Enoturismo e degustação (R$300/pessoa), 9h–12h, deslocamento ~30 min / 25 km, duração ~3h</li>
+            <li><a href="https://goo.gl/maps/xyz" target="_blank" class="text-pink-700 underline">Museu do Café – Fazenda Lageado</a>, 9h–17h, gratuito, deslocamento ~35 min / 30 km</li>
+            <li><a href="https://goo.gl/maps/xyz" target="_blank" class="text-pink-700 underline">Café Odê</a>, café especial e bolos, deslocamento ~10 min / 3 km</li>
+          </ul>
+          <h3 class="font-semibold mt-2">Noite</h3>
+          <ul class="list-disc ml-6 space-y-1">
+            <li>Jantar: hospedagem ou <a href="https://goo.gl/maps/xyz" target="_blank" class="text-pink-700 underline">Celeiro Restaurante</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Domingo -->
+      <div>
+        <button class="w-full bg-pink-200 hover:bg-pink-300 text-pink-800 font-bold py-3 px-6 rounded-full text-left flex justify-between items-center"
+                onclick="this.nextElementSibling.classList.toggle('hidden')">
+          <span>Domingo (28/09) – Natureza + Queijos + Coffee Tour opcional</span>
+          <span class="transform transition-transform">&#x25BC;</span>
+        </button>
+        <div class="hidden bg-pink-50 p-6 mt-2 rounded-lg shadow-lg space-y-2 transition-all duration-300">
+          <h3 class="font-semibold">Manhã</h3>
+          <ul class="list-disc ml-6 space-y-1">
+            <li>Trilha na hospedagem (~1h)</li>
+            <li><a href="https://goo.gl/maps/xyz" target="_blank" class="text-pink-700 underline">Pedra do Índio</a>, R$10/pessoa, deslocamento ~20 min / 15 km</li>
+            <li>Cachoeiras da Indiana – trilha ida e volta ~2h, deslocamento ~15 min / 12 km</li>
+          </ul>
+          <h3 class="font-semibold mt-2">Almoço / Tarde</h3>
+          <ul class="list-disc ml-6 space-y-1">
+            <li><a href="https://goo.gl/maps/xyz" target="_blank" class="text-pink-700 underline">Cuesta Café – Coffee Tour (opcional)</a>, R$80–120/pessoa, duração ~1h30–2h, deslocamento ~25 min / 20 km</li>
+            <li><a href="https://goo.gl/maps/xyz" target="_blank" class="text-pink-700 underline">Pardinho Artesanal</a>, visita gratuita, duração ~30–60 min, deslocamento ~5–10 min / 6 km</li>
+          </ul>
+        </div>
+      </div>
+          </div>
+        </section>
+
+                  <p
+            class="mb-8 px-4 text-left font-bold md:text-center md:mb-16 md:max-w-2xl"
+          >
+          </p>
+        <!-- Testimonial Section -->
+        <div
+          class="md:mx-auto gap-8 items-center md:max-w-screen-2xl flex flex-col-reverse md:flex-row"
+        >
+          <div class="md:w-2/2 p-4">
+            <blockquote class="text-xl md:text-2xl italic mb-4">
+              "Frase bonite generica de casal dizendo o quanto eu te amo"
+            </blockquote>
+            <p>Henrique, Rodrigues</p>
+          </div>
+          <div class="md:w-1/3">
+            <img
+              data-src="/src/images/gradient-3.jpg"
+              alt="<!-- TODO: Add alt text -->"
+              class="rounded-2xl"
+              width="415"
+              height="306"
+            />
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <load src="src/sections/footer.html" />
+      </main>
+    </div>
+    <script type="module" src="src/js/main.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+  </body>
+</html>
